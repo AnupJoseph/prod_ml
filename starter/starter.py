@@ -1,0 +1,4 @@
+import tensorflow as tf
+
+
+base_model = tf.keras.applications.MobileNetV2(input_shape = [128,128,3],include_top=False)
